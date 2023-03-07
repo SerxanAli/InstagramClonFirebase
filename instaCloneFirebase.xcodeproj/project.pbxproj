@@ -17,6 +17,8 @@
 		4F08938129B719F900B0AB64 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F08938029B719F900B0AB64 /* HomeVC.swift */; };
 		4F08938329B71AB200B0AB64 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F08938229B71AB200B0AB64 /* ProfileVC.swift */; };
 		4F08938529B71B2300B0AB64 /* UploadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F08938429B71B2300B0AB64 /* UploadVC.swift */; };
+		4F5159FE29B74B7C00814C91 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5159FD29B74B7C00814C91 /* RegisterVC.swift */; };
+		4F515A0029B751DE00814C91 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5159FF29B751DE00814C91 /* Helper.swift */; };
 		7A301DFA850D26562FEAB539 /* Pods_instaCloneFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE730911D483ED195F9C3679 /* Pods_instaCloneFirebase.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +36,8 @@
 		4F08938029B719F900B0AB64 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		4F08938229B71AB200B0AB64 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		4F08938429B71B2300B0AB64 /* UploadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadVC.swift; sourceTree = "<group>"; };
+		4F5159FD29B74B7C00814C91 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		4F5159FF29B751DE00814C91 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		C9548DF982117D71A840F38F /* Pods-instaCloneFirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instaCloneFirebase.debug.xcconfig"; path = "Target Support Files/Pods-instaCloneFirebase/Pods-instaCloneFirebase.debug.xcconfig"; sourceTree = "<group>"; };
 		DE730911D483ED195F9C3679 /* Pods_instaCloneFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_instaCloneFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -82,9 +86,11 @@
 				4F08936A29B7052800B0AB64 /* AppDelegate.swift */,
 				4F08936C29B7052800B0AB64 /* SceneDelegate.swift */,
 				4F08936E29B7052800B0AB64 /* ViewController.swift */,
+				4F5159FD29B74B7C00814C91 /* RegisterVC.swift */,
+				4F5159FF29B751DE00814C91 /* Helper.swift */,
 				4F08938029B719F900B0AB64 /* HomeVC.swift */,
-				4F08938229B71AB200B0AB64 /* ProfileVC.swift */,
 				4F08938429B71B2300B0AB64 /* UploadVC.swift */,
+				4F08938229B71AB200B0AB64 /* ProfileVC.swift */,
 				4F08937029B7052800B0AB64 /* Main.storyboard */,
 				4F08937329B7052D00B0AB64 /* Assets.xcassets */,
 				4F08937529B7052D00B0AB64 /* LaunchScreen.storyboard */,
@@ -223,8 +229,10 @@
 				4F08938529B71B2300B0AB64 /* UploadVC.swift in Sources */,
 				4F08936F29B7052800B0AB64 /* ViewController.swift in Sources */,
 				4F08938129B719F900B0AB64 /* HomeVC.swift in Sources */,
+				4F5159FE29B74B7C00814C91 /* RegisterVC.swift in Sources */,
 				4F08936B29B7052800B0AB64 /* AppDelegate.swift in Sources */,
 				4F08936D29B7052800B0AB64 /* SceneDelegate.swift in Sources */,
+				4F515A0029B751DE00814C91 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

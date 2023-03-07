@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Firebase
 
 class ViewController: UIViewController {
 
@@ -21,8 +22,30 @@ class ViewController: UIViewController {
     
     @IBAction func SignInClicked(_ sender: UIButton) {
     
-        performSegue(withIdentifier: "goToHomeVC", sender: nil)
-    
+        
+        if emailText.text != "" {
+            
+            if passwordText.text != "" {
+                
+                Auth.auth().signIn(withEmail: emailText.text! , password: passwordText.text!) { (AuthDataResult, Error)
+                    in
+                    if Error != nil {
+                        Helper.AlertAction(title: "Error", message: Error?.localizedDescription ?? "Unknown error", viewController: self)
+                    } else {
+                        self.performSegue(withIdentifier: "goToHomeVC", sender: nil)
+                    }
+                }
+                
+            } else {
+                Helper.AlertAction(title: "Error", message: "password is not", viewController: self)
+            }
+            
+        } else {
+            
+            Helper.AlertAction(title: "Error", message: "email is not", viewController: self)
+            
+        }
+ 
     }
     
     
