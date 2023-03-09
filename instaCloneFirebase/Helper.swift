@@ -13,20 +13,16 @@ class Helper  {
     
     
     static func AlertAction(title:String,message:String,viewController:UIViewController) {
-        
         let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
-        
         let alertButtonOK = UIAlertAction(title: "OK", style: .default)
-        
-        
         alert.addAction(alertButtonOK)
-        
         viewController.present(alert, animated: true)
-        
-        
         
     }
     
     
     
 }
+
+
+
